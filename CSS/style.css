@@ -1,0 +1,96 @@
+/* area principal da pagina */
+ 
+* {
+padding: 0px;
+margin: 0px;
+
+
+}
+
+body {
+	width: 1920px;
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-image: url(../img/fundo.png);
+}
+
+/* formatação do cabeçalho e menu de navegação */
+
+#cabecalho {
+	width: 1920px;
+	
+
+}
+
+#menu-navegacao {
+	margin-top: 10px;
+	width: 100%;
+	
+	background-color: #FFCB54;
+	padding: 5px;
+	
+}
+
+#menu-navegacao a:link, a:visited {
+	color: #000;
+	padding: 3px;
+
+
+}
+
+#menu-navegacao a {
+	text-decoration: none;
+	margin-right: 30em;
+	margin-left: 60em;
+	text-align: center;
+	
+}
+
+
+#menu-navegacao a:hover {
+		color: #fff;
+		background-color: #2262B8;
+	
+
+}
+
+/* formatação das informações do corpo da pagina */
+
+h1 h2 {
+	color: #2262B8;
+	text-align: center;
+	padding: 10px;
+}
+
+/* formatação das informações de tabelas */
+
+
+th {
+	color: #2262B8;
+	background-color: #FFCB54;
+}
+
+td {
+	background-color: #d3d2cf;
+}
+
+.cadastro-produto {
+	width: 600px;
+}
+
+.excluir-bt {
+	color: #000;
+}
+
+.excluir-bt:hover {
+	background-color: #ff0000;
+}
+
+.editar-bt {
+	color: #000;
+}
+
+.editar-bt:hover {
+	background-color: #269952;
+}
+
